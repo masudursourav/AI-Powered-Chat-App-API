@@ -2,6 +2,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 import errorHandler from "./middlewares/errorHandler.js";
+import chatRoutes from "./routes/chatRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 
 dotenv.config();
@@ -20,5 +21,6 @@ app.listen(PORT, () => {
 
 //Routes
 app.use("/api/v1/user", userRoutes);
+app.use("/api/v1", chatRoutes);
 // Error handling middleware
 app.use(errorHandler);
