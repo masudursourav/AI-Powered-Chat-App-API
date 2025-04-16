@@ -14,9 +14,12 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
+    "@google-cloud/aiplatform": "^4.1.0",
+    "@google/genai": "^0.8.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
+    "genai": "^0.0.18",
     "openai": "^4.91.1",
     "stream-chat": "^8.58.0"
   },
