@@ -1,6 +1,6 @@
 import { console } from "inspector";
-import { ai } from "../googleAi/googleAi.js";
-import streamChatClient from "../streamChat/streamChatClient.js";
+import { ai } from "../config/googleAi/googleAi.js";
+import streamChatClient from "../config/streamChat/streamChatClient.js";
 
 interface ChatServiceParams {
   userId: string;

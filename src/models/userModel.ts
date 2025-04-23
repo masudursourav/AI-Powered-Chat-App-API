@@ -1,4 +1,4 @@
-import streamChatClient from "../streamChat/streamChatClient.js";
+import streamChatClient from "../config/streamChat/streamChatClient.js";
 
 interface User {
   name: string;
