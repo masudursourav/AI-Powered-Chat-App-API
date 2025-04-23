@@ -16,8 +16,10 @@
   "dependencies": {
     "@google-cloud/aiplatform": "^4.1.0",
     "@google/genai": "^0.8.0",
+    "@neondatabase/serverless": "^1.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.42.0",
     "express": "^5.1.0",
     "genai": "^0.0.18",
     "openai": "^4.91.1",
@@ -27,6 +29,7 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
     "@types/node": "^22.14.0",
+    "drizzle-kit": "^0.31.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3"
   }
